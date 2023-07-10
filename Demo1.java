@@ -1,15 +1,21 @@
-package tap.com.org;
+package methods.com;
 
-public class Demo1 {
-public static void main(String args[])
+class Dog
 {
-	for(int i=1;i<=5;i++)
+	int c;
+	void add(int a,int b)
 	{
-		for(int j=1;j<=5;j++)
-		{
-			System.out.print("*");
-		}
-		System.out.println();
+		c=a+b;
+		System.out.println(c);
 	}
 }
+public class Demo1 {
+	public static void main(String[] args) {
+		Dog d=new Dog();
+		int num1=50;
+		int num2=40;
+		d.add(num1,num2);
+	}
+	
+
 }
